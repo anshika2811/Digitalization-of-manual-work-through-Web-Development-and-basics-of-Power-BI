@@ -1,0 +1,48 @@
+*{margin: 0px;
+    padding: 0px;}
+.background{background: rgb(146, 130, 130) url('https://nepaldrives.com/wp-content/uploads/2019/09/tatapuneplantvisitfeaturedimage.jpg');
+    background-size: cover;
+    background-blend-mode: darken;}
+.first{height: 100vh;}
+.heading{height: 20%;
+    text-align: center;
+    justify-content: center;    
+    text-decoration: solid;
+    transition: 0.4s;}
+.heading i{transition: 0.5s;
+    font-size: 100px;}
+.heading i:hover{font-size:120px;
+    color: whitesmoke;}
+.details{ width: 50%;
+    margin-left: 40%;}
+.details ul{ width: 50%;
+    margin-right:20px ;}
+.details li{    font-size: 35px;
+    text-align: center;
+    background-color: rgb(121, 114, 114);
+    color: whitesmoke;}
+@media (max-height:360px){*{
+        margin: 0px;
+        padding: 0px;}
+    .background{       background: rgb(146, 130, 130) url('https://nepaldrives.com/wp-content/uploads/2019/09/tatapuneplantvisitfeaturedimage.jpg');
+        background-size: cover;
+        background-blend-mode: darken;}
+    .first{height: 100vh;}
+    .heading{        height: 25%;
+        text-align: center;
+        justify-content: center;
+        font-size: 120px;
+        text-decoration: solid;
+        transition: 0.4s;}
+    .heading i{margin-top: 40px;
+        transition: 0.5s;
+        font-size: 80px;}
+    .heading i:hover{ font-size:90px;
+        color: whitesmoke;}
+    .details{width: 50%;
+        margin-left: 200px;}
+    .details ul{width: 50%;}
+    .details li{font-size: 20px;
+        text-align: center;
+        background-color: rgb(121, 114, 114);
+        color: whitesmoke;}}
